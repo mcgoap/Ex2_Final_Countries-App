@@ -1,0 +1,66 @@
+.country-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 16px;
+  margin: 10px 15px;
+}
+
+.country-flag {
+  max-width: 80%;
+}
+
+.img-flag {
+  max-width: 200px;
+  border: 1px solid #cccccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 40px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+.country-all-info {
+  background-color: #f4f4f4;
+  padding: 20px 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.single-country {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  border-bottom: 1px #cccc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 25px 10px;
+}
+
+button {
+  background-color: #282c34;
+  color: #fff;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.country-all-info h3 {
+  margin-block-start: 1em;
+  margin-block-end: 0em;
+}
+.details {
+  font-size: 16px;
+  font-weight: normal;
+}
